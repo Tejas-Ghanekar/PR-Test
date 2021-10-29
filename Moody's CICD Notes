@@ -1,0 +1,7 @@
+GitHub Repo -> Develop branch
+Create feature branch off of Develop branch
+Build branch -> flyway repair, migrate, validate -> run tests(GitHub actions)
+Create PR after tests pass -> merge with Develop branch
+Code Pipeline will kick off deploy the schema changes to the dev env
+
+DML vs DDL
